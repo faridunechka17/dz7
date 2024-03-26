@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: pink;
+    padding: 30px;
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+#userInput{
+    border: 2px solid red;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 7px;
+}
+button{
+    width: 240px;
+    height: 40px;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 20px;
+}
